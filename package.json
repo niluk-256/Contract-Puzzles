@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "g1": "yarn hardhat test  test/game1Test.js",
+    "g2": "yarn hardhat test  test/game2Test.js",
+    "g3": "yarn hardhat test  test/game3Test.js",
+    "g4": "yarn hardhat test  test/game4Test.js",
+    "g5": "yarn hardhat test  test/game5Test.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +18,11 @@
     "@nomiclabs/hardhat-ethers": "^2.2.1",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
     "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
     "ethereum-waffle": "^3.4.4",
     "ethers": "^5.7.2",
-    "hardhat": "^2.12.4"
+    "hardhat": "^2.12.4",
+    "hardhat-gas-reporter": "^1.0.9"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0"
